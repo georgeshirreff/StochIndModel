@@ -1,0 +1,29 @@
+write_info	1.0
+write_demog	1.0
+write_epi	1.0
+write_final	1.0
+Nsets	5.0
+Nreps	10.0
+dur_p	0.25
+Dmax	25.4
+D50	3058.0
+Dk	0.41
+dur_d	0.75
+beta_p	2.76
+betamax	0.317
+beta50	13938.0
+betak	1.02
+beta_d	0.76
+rho	3.46
+lifeExpectancy	50.0
+dt	0.01
+start_time	-5.0
+report_from	-2.0
+report_every	0.1
+end_time	20.0
+set	pop_size	sigma_e	sigma_m	start_mu	contact_rate	proportionCore	nonCore_rateMultiplier	assortativity	p_epi	p_epi_lo	p_epi_hi	max_before_extinction	R0	ViralLoad_mean_mean
+1	1000.0	0.5	0.3	4.5	0.5	0.2	0.3	0.8	0.1	0.00252857854446	1	4	5	4.0319561938
+2	1000.0	0.5	0.3	4.5	1.0	0.2	0.3	0.8	0.5	0.187086028447	0.262378076607	2	5	4.31947045567
+3	1000.0	0.5	0.3	4.5	2.0	0.2	0.3	0.8	0.9	0.554983882972	0.691502892181	1	5	4.14609320229
+4	1000.0	0.5	0.3	4.5	3.0	0.2	0.3	0.8	1.0	0.691502892181	nan	0	5	4.32274896249
+5	1000.0	0.5	0.3	4.5	4.0	0.2	0.3	0.8	1.0	0.691502892181	nan	0	5	3.69548906701
